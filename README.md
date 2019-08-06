@@ -13,14 +13,14 @@ This project will be based on Python (most of the best NLP and data science libr
 
 ## Roadmap
 #### 1. Data gathering
-1. [] List Twitter controversies/fights (w/ celebrities, authors...)
+1. [ ] List Twitter controversies/fights (w/ celebrities, authors...)
     1. [List of banned people and reasons](https://en.wikipedia.org/wiki/Twitter_suspensions)
-2. [] List of all SJW twitter fights?
-3. [] List of most followed accounts by SJWs?
-    1. [] Is there a site tracking them?
-    2. [] List their followers
-    3. [] List most extreme SJW influencers, black-list followers
-4. [] List of #Hashtags used by SJWs, Saudi trolls,  foreign govs agencies, or accounts, find users and add to list
+2. [ ] List of all SJW twitter fights?
+3. [ ] List of most followed accounts by SJWs?
+    1. [ ] Is there a site tracking them?
+    2. [ ] List their followers
+    3. [ ] List most extreme SJW influencers, black-list followers
+4. [ ] List of #Hashtags used by SJWs, Saudi trolls,  foreign govs agencies, or accounts, find users and add to list
     1. [Explore Twitter Trending Topics](https://www.trendsmap.com/)
     2. [Example](https://twitter.com/hashtag/TransIsBeautiful?src=hash)
     3. Create a script that looks for new hashtags coming from specific countries(dictatorships) or blacklisted accounts by account/event monitoring, tracks who is sharing them, and adds them to list.
@@ -29,12 +29,12 @@ This project will be based on Python (most of the best NLP and data science libr
     1. [How to scrape Twitter for Historical Tweet Data](https://www.scrapehero.com/how-to-scrape-historical-search-data-from-twitter/)
     2. [Github - TweetScraper](https://github.com/jonbakerfish/TweetScraper)
     3. [Scrape tweets without using the API](http://www.simonlindgren.com/stuff/2017/11/7/scrape-tweets-without-using-the-api)
-7. [] Export to JSON/CSV Reply-Content | Reply-author
+7. [ ] Export to JSON/CSV Reply-Content | Reply-author
 #### 2. Data processing and NLP -> List creation
- 1. [] Original Tweet: Identify topic-idea
- 2. [] Replies: Sentiment analysis + topic extraction
- 3. [] Create a list from very negative to extremely negative replies (sentimen[-0.5:-1])
- 4. [] For tweet in negative tweets:
+ 1. [ ] Original Tweet: Identify topic-idea
+ 2. [ ] Replies: Sentiment analysis + topic extraction
+ 3. [ ] Create a list from very negative to extremely negative replies (sentimen[-0.5:-1])
+ 4. [ ] For tweet in negative tweets:
     1. Is it intended towards the author or the topic?
     2. If it's against the author -> Add account to blocked_list
 #### 3. Script to automatically block listed users
